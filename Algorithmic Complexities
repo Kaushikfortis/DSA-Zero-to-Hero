@@ -1,0 +1,22 @@
+# Algorithmic Complexity
+
+Algorithmic complexity, also known as computational complexity, refers to the efficiency of an algorithm in terms of the resources it consumes, such as time and space. It is a measure of how the performance of an algorithm scales with the size of the input.
+
+## Time Complexity
+
+Time complexity measures the amount of time an algorithm takes to complete as a function of the size of the input. It provides an upper bound on the running time of an algorithm and is expressed using Big O notation. Common time complexities include:
+- O(1): Constant time complexity (e.g., accessing an element in an array by index).
+- O(log n): Logarithmic time complexity (e.g., binary search).
+- O(n): Linear time complexity (e.g., linear search).
+- O(n log n): Linearithmic time complexity (e.g., merge sort).
+- O(n^2): Quadratic time complexity (e.g., bubble sort).
+- O(2^n): Exponential time complexity (e.g., recursive solutions to some problems).
+
+## Space Complexity
+
+Space complexity measures the amount of memory space an algorithm uses as a function of the size of the input. It provides an upper bound on the memory required by an algorithm and is also expressed using Big O notation. Common space complexities include:
+- O(1): Constant space complexity.
+- O(n): Linear space complexity.
+- O(n^2): Quadratic space complexity.
+
+Efficient algorithms have lower time and space complexities, meaning they can handle larger inputs or solve problems more quickly with fewer resources. Analyzing algorithmic complexity is crucial for selecting the most suitable algorithms for specific tasks and ensuring that they can scale efficiently as input sizes increase.
