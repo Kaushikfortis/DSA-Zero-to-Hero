@@ -1,1 +1,44 @@
-Data 
+### Data Structures and Algorithms (DSA)
+
+Data Structures and Algorithms (DSA) are fundamental concepts in computer science that involve organizing and processing data efficiently. Here are some key data structures and algorithms, along with their types:
+
+1. **Arrays:**
+   - **Definition:** An array is a collection of elements stored at contiguous memory locations.
+   - **Types:** One-dimensional array, two-dimensional array.
+
+2. **Linked Lists:**
+   - **Definition:** A linked list is a linear collection of nodes, where each node points to the next node in the sequence.
+   - **Types:** Singly linked list, doubly linked list, circular linked list.
+
+3. **Stacks:**
+   - **Definition:** A stack is a collection of elements with two main operations: push (adding an element to the top) and pop (removing the top element).
+   - **Types:** LIFO (Last In, First Out) stack.
+
+4. **Queues:**
+   - **Definition:** A queue is a collection of elements with two main operations: enqueue (adding an element to the back) and dequeue (removing the front element).
+   - **Types:** FIFO (First In, First Out) queue, priority queue.
+
+5. **Trees:**
+   - **Definition:** A tree is a hierarchical data structure with a root node and branches representing a hierarchy.
+   - **Types:** Binary tree, AVL tree, B-tree, Trie.
+
+6. **Graphs:**
+   - **Definition:** A graph is a collection of nodes connected by edges.
+   - **Types:** Directed graph, undirected graph, weighted graph.
+
+7. **Hash Tables:**
+   - **Definition:** A hash table is a data structure that maps keys to values, allowing for efficient retrieval of values based on keys.
+   - **Types:** Open addressing, chaining.
+
+8. **Searching Algorithms:**
+   - **Binary Search:** Efficient search in sorted arrays.
+   - **Linear Search:** Basic search algorithm for unordered lists.
+
+9. **Sorting Algorithms:**
+   - **Bubble Sort:** Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+   - **Merge Sort:** Divide-and-conquer sorting algorithm that divides the input into smaller parts, sorts them, and then merges them.
+
+10. **Graph Algorithms:**
+    - **Breadth-First Search (BFS):** Traversal algorithm that visits all vertices of a graph in breadthward motion.
+    - **Depth-First Search (DFS):** Traversal algorithm that explores as far as possible along each branch before backtracking.
+
