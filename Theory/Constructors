@@ -1,0 +1,30 @@
+## Constructors in Python
+
+In Python, a constructor is a special method used for initializing the attributes of a class when an object is created. Constructors are defined using the `__init__` method within a class.
+
+### Syntax of a Constructor:
+
+```python
+class ClassName:
+    def __init__(self, parameter1, parameter2, ...):
+        # Constructor body
+        # Initialize attributes using parameters
+
+
+
+######################################################
+Example:
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+# Creating an instance of the Car class
+my_car = Car(make="Toyota", model="Camry", year=2022)
+
+# Accessing attributes using the instance
+print("Make:", my_car.make)
+print("Model:", my_car.model)
+print("Year:", my_car.year)
