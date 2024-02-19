@@ -1,0 +1,55 @@
+# Algorithmic Complexity
+
+Algorithmic complexity, also known as computational complexity, refers to the efficiency of an algorithm in terms of the resources it consumes, such as time and space. It is a measure of how the performance of an algorithm scales with the size of the input.
+
+## Time Complexity
+
+Time complexity measures the amount of time an algorithm takes to complete as a function of the size of the input. It provides an upper bound on the running time of an algorithm and is expressed using Big O notation. Common time complexities include:
+- O(1): Constant time complexity (e.g., accessing an element in an array by index).
+- O(log n): Logarithmic time complexity (e.g., binary search).
+- O(n): Linear time complexity (e.g., linear search).
+- O(n log n): Linearithmic time complexity (e.g., merge sort).
+- O(n^2): Quadratic time complexity (e.g., bubble sort).
+- O(2^n): Exponential time complexity (e.g., recursive solutions to some problems).
+
+## Space Complexity
+
+Space complexity measures the amount of memory space an algorithm uses as a function of the size of the input. It provides an upper bound on the memory required by an algorithm and is also expressed using Big O notation. Common space complexities include:
+- O(1): Constant space complexity.
+- O(n): Linear space complexity.
+- O(n^2): Quadratic space complexity.
+
+Efficient algorithms have lower time and space complexities, meaning they can handle larger inputs or solve problems more quickly with fewer resources. Analyzing algorithmic complexity is crucial for selecting the most suitable algorithms for specific tasks and ensuring that they can scale efficiently as input sizes increase.
+
+
+#####################################################################################################
+
+# Big O Notation
+
+Big O notation is a mathematical notation used in computer science to describe the upper bound or worst-case scenario of the growth rate of an algorithm's running time or space requirements as a function of the input size. It provides a way to express the efficiency or complexity of an algorithm in a simplified and abstract manner.
+
+## Definition
+
+The formal definition of Big O notation is as follows: Let \(f(n)\) and \(g(n)\) be functions that map positive integers to positive real numbers. We say that \(f(n)\) is \(O(g(n))\) if there exist constants \(c > 0\) and \(n_0 > 0\) such that \(0 \leq f(n) \leq c \cdot g(n)\) for all \(n \geq n_0\). In simpler terms, \(f(n)\) is \(O(g(n))\) if, for sufficiently large \(n\), \(f(n)\) grows no faster than a constant multiple of \(g(n)\).
+
+## Key Points
+
+1. **Upper Bound:** Big O notation provides an upper bound on the growth rate of an algorithm. It characterizes the worst-case scenario but does not necessarily describe the average or best-case performance.
+
+2. **Simplified Representation:** Big O notation simplifies the comparison of algorithms by expressing their efficiency in terms of a standardized notation. It focuses on the dominant term that has the most significant impact on the growth rate.
+
+3. **Order of Growth:** Big O notation classifies algorithms based on their order of growth concerning the input size. Common Big O complexities include \(O(1)\) (constant time), \(O(\log n)\) (logarithmic time), \(O(n)\) (linear time), \(O(n \log n)\) (linearithmic time), \(O(n^2)\) (quadratic time), etc.
+
+4. **Ignore Constant Factors:** Big O notation ignores constant factors and lower-order terms. It captures the overall trend of growth without getting into specific details that may vary based on hardware, programming language, or other factors.
+
+## Examples
+
+Examples of common Big O notations:
+
+- \(O(1)\): Constant time complexity.
+- \(O(\log n)\): Logarithmic time complexity (e.g., binary search).
+- \(O(n)\): Linear time complexity (e.g., linear search).
+- \(O(n^2)\): Quadratic time complexity (e.g., bubble sort).
+- \(O(2^n)\): Exponential time complexity (e.g., recursive solutions to some problems).
+
+Big O notation is widely used in algorithm analysis and helps developers and researchers understand the scalability and efficiency of algorithms in a consistent and abstract way.
